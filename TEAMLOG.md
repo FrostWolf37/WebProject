@@ -18,37 +18,31 @@
 
 
 
+## 2026-10-01: Day 2 Workshop:
+
+* **Present:** Dan, Zach
+
+* **Scribe:**  Dan
+
+* ** Standup:**
+
+	-Dan: Setup Repo with branches(main, develop, feature/index-page); Blocked with locking down a specific theme/concept
+	-Zach: Started basic HTML page with header, small body and footer; 
+		and uploaded to index-page repo; Blocked with styling and learning CSS with JavaScript
+
+* **Plan**
+	*Goals for today:*  (1)Improve more basic aspects of the website. (2) Make HTML code more readable. (3) Read Through Module 2 resources 
+			(4) rename TEAMLOG and add it to our repo
+* ** Build**
+	Renamed the TEAMLOG, began reading through Module 2 resources and added an image onto out index page website.
+
+* **Shipped**
+	Basic website with image works
+
+* **Handoff Package**
+	Worked on adding an image and links to our basic index page to start	
 
 
-\## 2026-10-01 Day 2 Workshop:
-
-\* \*\*Present:\*\* Dan, Zach
-
-\* \*\*Scribe:\*\*  Dan
-
-\* \*\* Standup:\*\*
-
-&#x09;-Dan: Setup Repo with branches(main, develop, feature/index-page); Blocked with locking down a specific theme/concept
-
-&#x09;-Zach: Started basic HTML page with header, small body and footer; and uploaded to index-page repo; Blocked with styling and learning CSS with JavaScript
-
-
-
-\* \*\*Plan\*\*
-
-&#x09;-\*Goals for today:\*  (1)Improve more basic aspects of the website. (2) Make HTML code more readable. (3) Read Through Module 2 resources
-
-
-
-\* \*\*Build\*\*
-
-&#x09;-\*Shipped:\*
-
-
-
-\* \*\*Review\*\*
-
-&#x09;-\*
 
 
 
