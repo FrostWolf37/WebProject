@@ -44,5 +44,24 @@
 
 
 
+## 2026-10-08: Day 2 Workshop:
 
+* **Present:** Dan, Zach
 
+* **Scribe:**  Zach
+
+* ** Standup:**
+
+	-Dan: Fixing github branches/histories; assignment work; start CSS and help with HTML
+	-Zach: assignment work; add info to index so we can design CSS;
+
+* **Plan**
+	*Goals for today:*  (1) Add fluff to HTML (2) Start CSS styling/designing (3) Start assignment work
+* ** Build**
+	
+
+* **Shipped**
+	
+
+* **Handoff Package**
+	
