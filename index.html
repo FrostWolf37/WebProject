@@ -1,24 +1,37 @@
 <html lang="en-US">
-	<header>
+	<head>
 		<title> PlayFair - Home </title>
-		<h1 style="padding-left: 30px; font-size: 100px; padding-top: 10px"> <img src="images\rickySethi.png" alt="The man himself" /> PlayFair </h1>
-		<a href="#" title="View your bets">My Bets</a> | <a href="#" title="View live sports">Live Sports</a> | <a href="#" title="View your available rewards">Rewards</a> | <a href="#" title="View our about section">About Us</a>
-		<hr>
-	</header>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
 	<body>
-		<search>This is where a search bar would go so you can search for teams or bets</search>
-		<main>
-			<strong><br>This is where your current bets would show up, and we make it bold so you really want to see it</strong><br><br>
+		<header class="site-header">
+			<p class="brand"> <img src="images\rickySethi.png" alt="The man himself" /> PlayFair </p>
+			<nav>
+				<ul>
+					<li><a href="#" title="View your bets">My Bets</a></li>
+					<li><a href="live-sports.html" title="View live sports">Live Sports</a></li>
+					<li><a href="#" title="View your available rewards">Rewards</a></li>
+					<li><a href="#" title="View our about section">About Us</a></li>
+				</ul>
+			</nav>
 			<hr>
-			<liveSports>
-				<br>
-				This is where you would see the live sports that you can gamble on
-			</liveSports>
+		</header>
+
+		<main>
+			<h1 class="current-bets">This is where your current bets would show up, and we make it bold so you really want to see it</h1>
+			<ul class="cards">
+				<li class="card"><h2>Patriots</h2><p>Patriots V.S. Bills<br>$1,000</p></li>
+			</ul>
+			<hr>
+			<ul class="cards">
+				<li class="card"><h2>Patriots</h2><p>Patriots V.S. Bills</p></li>
+				<li class="card"><h2>Steelers</h2><p>Steelers V.S. Chiefs</p></li>
+				<li class="card"><h2>Dolphins</h2><p>Dolphins V.S. Ravens</p></li>
+			</ul>
 		</main>
+		<footer> <!-- This needs to be at the bottom of the page -->
+			PlayFair&copy;               Contact Us: Email that we never check; social media we don't reply to
+			<br>Our Partners:
+		</footer>
 	</body>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<footer> <!-- This needs to be at the bottom of the page -->
-		PlayFair&copy;               Contact Us: Email that we never check; social media we don't reply to
-		<br>Our Partners:
-	</footer>
 </html>
