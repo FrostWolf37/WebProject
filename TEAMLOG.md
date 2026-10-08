@@ -58,10 +58,10 @@
 * **Plan**
 	*Goals for today:*  (1) Add fluff to HTML (2) Start CSS styling/designing (3) Start assignment work
 * ** Build**
-	
+	Restyled index.html to be more like what we learned in class; created live-sports.html(new branch)
 
 * **Shipped**
-	
+	Restyled index.html; live-sports.html
 
 * **Handoff Package**
 	
