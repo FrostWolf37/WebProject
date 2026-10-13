@@ -1,11 +1,13 @@
+<!DOCTYPE html>
 <html lang="en-US">
 	<head>
+		<meta charset="utf-8">
 		<title> PlayFair - Home </title>
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<header class="site-header">
-			<p class="brand"> <img src="images\rickySethi.png" alt="The man himself" /> PlayFair </p>
+			<p class="brand"> <img src="images/rickySethi.png" alt="The man himself"> PlayFair </p>
 			<nav>
 				<ul>
 					<li><a href="#" title="View your bets">My Bets</a></li>
@@ -17,16 +19,27 @@
 			<hr>
 		</header>
 
-		<main>
+		<main aria-label="Main">
+			<p class="controls">
+				<label for="search">Search by team</label>
+				<input id="search" type="search">
+					
+				<label for="category">Category</label>
+				<select id="category">
+				<option value="All">All</option>
+				<option value="All">Active</option>
+				<option value="All">Closed</option>
+				</select>
+			</p>
 			<h1 class="current-bets">This is where your current bets would show up, and we make it bold so you really want to see it</h1>
 			<ul class="cards">
-				<li class="card"><h2>Patriots</h2><p>Patriots V.S. Bills<br>$1,000</p></li>
+				<li class="card"><h2>Patriots V.S. Bills</h2><p>$1,000<br>Ends in 2 hours</p></li>
 			</ul>
 			<hr>
 			<ul class="cards">
-				<li class="card"><h2>Patriots</h2><p>Patriots V.S. Bills</p></li>
-				<li class="card"><h2>Steelers</h2><p>Steelers V.S. Chiefs</p></li>
-				<li class="card"><h2>Dolphins</h2><p>Dolphins V.S. Ravens</p></li>
+				<li class="card"><h2></h2><p></p></li>
+				<li class="card"><h2>Steelers V.S. Chiefs</h2><p>Ends in 2 days</p></li>
+				<li class="card"><h2>Dolphins V.S. Ravens</h2><p>Ends in 1 days</p></li>
 			</ul>
 		</main>
 		<footer> <!-- This needs to be at the bottom of the page -->
