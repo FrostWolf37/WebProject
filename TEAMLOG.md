@@ -64,4 +64,20 @@
 	Restyled index.html; live-sports.html
 
 * **Handoff Package**
+
+
+
+## 2026-10-15: Day 2 Workshop:
+
+* **Present:** Dan, Zach
+
+* **Scribe:** Zach
+
+* **Standup:**
+	-Dan: Module 2 Assignment work finished, Github fixed and repo is up to date; help with CSS, and start javascript to hand in milestone 1
+	-Zach: Module 2 Assignment work finished, started CSS; Continue working on CSS for milestone 1 project hand in 
+
+* **Plan**
+	*Goals for today:* (1) Polish CSS file for milestone 1 (2) Create javascript for milestone 1 (3) work on reflection for README file
+
 	
