@@ -80,4 +80,13 @@
 * **Plan**
 	*Goals for today:* (1) Polish CSS file for milestone 1 (2) Create javascript for milestone 1 (3) work on reflection for README file
 
+* **Build**
+	Restyled styles.css so colors appeared and our logo/links are centered on page. Started javascript for drop down menu and search for game cards to appear.  Working for showing first team on card, but not second team yet. Category also isn't working yet.
+
+* **Shipped**
+	Restyled index.html, styles.css, apps.js
+
+* ** Handoff Package**
+	styles.css, apps.js
+
 	
