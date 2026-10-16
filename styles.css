@@ -9,7 +9,7 @@
   --step-2: 1.6rem;      /* section headings */
   --step-3: 2rem;        /* site title */
   --space: 1rem;
-  --radius: 0.5rem;
+  --radius: 1rem;
 }
 
 body {
@@ -80,6 +80,7 @@ input, select {
 }
 
 .cards {
+	white-space: pre-line; /*we add this so the html renders \n in the Javascript as a newline*/
 	display: grid;
 	grid-template-columns: 1fr;
 	list-style: none;
