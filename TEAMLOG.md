@@ -71,7 +71,7 @@
 
 * **Present:** Dan, Zach
 
-* **Scribe:** Zach
+* **Scribe:** Dan
 
 * **Standup:**
 	-Dan: Module 2 Assignment work finished, Github fixed and repo is up to date; help with CSS, and start javascript to hand in milestone 1
@@ -89,4 +89,25 @@
 * ** Handoff Package**
 	styles.css, apps.js
 
-	
+
+## 2026-10-22: Day 2 Workshop:
+
+* **Present:** Dan, Zach
+
+* **Scribe:** Zach
+
+* **Standup:**
+	-Dan: Work on LiveSports page; css, javascript, html; start API implementation
+	-Zach: Work on Handoff package; make sure README has the correct info; edit index if needed
+
+* **Plan**
+	*Goals for today:* (1) Work on LiveSports; (2) Work on Handoff; (3) edit index if needed
+
+* **Build**
+	Added to liveSports.html, buttons; fixed errors in html with horizontal rules; linked liveSports and index
+
+* **Shipped**
+	liveSports.html; fixed error in index.html; linked index.html and liveSports.html
+
+* ** Handoff Package**
+	Started a summary, what each page does, need to edit it once we finalize how to show the games with the API
