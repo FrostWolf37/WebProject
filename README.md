@@ -2,10 +2,18 @@
 **Authors:** Daniel Beauchemin, Zachary Roy
 
 ### Application Summary
-This is a sports betting website that had 2 pages, 'index.html' and 'liveSports.html', 'index.html' is the homepage, it has the most current/popular bets where you can increase your bets by interacting with the cards. There is a search function that searches for team names, and category function to sort by open and setlled(completed) games/bets. 'liveSports.html' is where you can view all the possible betting options, which are loaded in with an API that displays different sports leagues, teams, live games and future games. 
+This is a sports betting website that had 2 pages, 'index.html' and 'liveSports.html', 'index.html' is the homepage, it has the most current/popular bets where you can increase your bets by interacting with the cards. There is a search function that searches for team names, and category function to sort by open and setlled(completed) games/bets.
 Our header is a flexbox within a grid so the list and logo are aligned vertically while the list contents remain in a row.
-'index.html': ==HOW DO THE CARDS WORK==. 
-'liveSports.html': ==HOW DOES IT WORK==.
+We converted the bulk of our 'index.html' into a .jsx so that our front end can run. We lost functionality with the .css and some functionality with Javascript, which was rewritten to have better functionality, rendering the old JS basically useless. We originally did not know that we would be creating just a single web page with a lot of functionality, so we had originally designed 'live-sports.html' to be a place to show updated games to get on, and the 'index.html' to be the home page which just had your actual bets and some live games. But ultimately that was scrapped so we can focus on one 'index.js' with more functionality.
+We decided to leave all of the old files before converting them to the server because we thought it would be helpful to see our steps and may help in tracking down bugs.
+
+To run the back end
+cd module3handoff/server
+npm start
+
+To run the front end
+cd module3handoff/client
+npm run dev
 
 ### Reflection 10-16-26
 ### Semantic Structure & Accessibility Decisions
@@ -17,12 +25,9 @@ For the controls sections(the search bar and category dropdown), Flexbox was the
 The navigation header, on the other hand, gave us a real headache with Flexbox. We originally wanted our header links to sit centered directly underneath our logo. But when we tried using Flexbox, the links kept shifting around and wouldn't stay centered right under the brand image. After trying to force it with flex-properties, we switched `.site-header` over to CSS Grid instead. By using `display:grid` with `justify-content:center` and `align-items:center`, Grid now forced the logo and links into a single centered column.
 Finally, for the games container('.cards') we chose CSS Grid because it handles cards in two dimensions much better than Flexbox. We set up media queries so mobile phones get 1 column, tablets get 2 columns, and desktop screens get 3 columns. This keeps all cards uniform.
 
-### DOM Challenges
-
-### API Contract
-
-
 ### Known Bugs/Issues
+The CSS doesn't show on the index page, we tried to get this working but it wouldn't load the CSS or image for the logo.
+
 
 When implementing the JavaScript, we wanted our cards to have different things appear in the meta text depending on whether or not they had a bet, and what team they bet on, originally we were going to simply replace the `meta.textContent = ...` with a few if statements, but when adding the eventListener to change the bet when clicked, it would require repetitive code, so we moved the meta.textContent portion into its own function and passed each card to it when needed. We also ran into an issue with implementing the category selection, as we were originally trying to put the OR statement outside of the `.filter`, when we should have had the OR inside the `.filter`. 
 
