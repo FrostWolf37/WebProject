@@ -11,7 +11,7 @@ npm run dev
 
 ### Reflection 10-16-26
 ### Semantic Structure & Accessibility Decisions
-Our structural decisions prioritized more strict HTML5 semantics over common `<div>` containers to help with landmark boundaries and better document clarity. Structural areas are defined through `<header>`,`<nav>`,`<main>`,`<section>`, and `<footer>`.  For visually impaired users reliant on screen readers, the branding graphic uses explicit `alt` text, while the primary content area is isolated with the 'aria-label="main"'. Our search counter (`#count`) which will automatically broadcast updated match counts to screen readers when the DOM updates during user input, which shifts the focus away from input controls for visually impaired. We are also planning on implementing more aria-labels later on.
+Our structural decisions prioritized more strict HTML5 semantics over common `<div>` containers to help with landmark boundaries and better document clarity. Structural areas are defined through `<header>`,`<nav>`,`<main>`,`<section>`, and `<footer>`.  For visually impaired users reliant on screen readers, the branding graphic uses explicit `alt` text, while the primary content area is isolated with the `aria-label="main"`. Our search counter (`#count`) which will automatically broadcast updated match counts to screen readers when the DOM updates during user input, which shifts the focus away from input controls for visually impaired. We are also planning on implementing more aria-labels later on.
 
 ### Layout Decisions: Flexbox vs CSS Grid
 We decided to split up our layout tools based on what each does best: Flexbox for our one-direction rows, and CSS Grid for multi-column areas.
