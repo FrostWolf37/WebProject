@@ -111,3 +111,28 @@
 
 * ** Handoff Package**
 	Started a summary, what each page does, need to edit it once we finalize how to show the games with the API
+
+
+## 2026-10-29: Day 2 Workshop:
+
+* **Present:** Dan, Zach
+
+* **Scribe:** Dan
+
+* **Standup:**
+	-Dan: Troubleshot the lab from Tuesdays class. Look into Module 3 assignment
+	-Zach: Work on converting our html files to jsx. Try to work on react. Problems we are both having is understanding the react/express workload
+
+* **Plan**
+	*Goals for today:* (1) Work on understanding react and express (2) try to convert our html files into a jsx for react/express
+
+* **Build**
+	Trying to figure out how Express and React work with our webpage
+
+* **Shipped**
+	index.html; liveSports.html
+
+* **Hand-Off**
+	
+
+	
