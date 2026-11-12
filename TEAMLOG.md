@@ -135,4 +135,24 @@
 * **Hand-Off**
 	
 
-	
+## 2026-11-12: Day 2 Workshop:
+
+* **Present:** Dan, Zach
+
+* **Scribe:** Zach
+
+* **Standup:**
+	-Dan: Will work on the handover presentation
+	-Zach: Will test on a clean clone, do handover document
+
+* **Plan**
+	*Goals for today:* (1) Presentation (2) Handover document (3) Test on a clean clone
+
+* **Build**
+	HANDOVER.md in the root folder, contains everything needed by the next group. HandOffPresentation.pptx in the root folder
+
+* **Shipped**
+	HANDOVER.md and HandOffPresentation.pptx
+
+* **Hand-Off**
+	HANDOVER.md and presentation
