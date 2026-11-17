@@ -5,7 +5,7 @@ Who it is for, and its primary resource (e.g., recipes, tasks, events).
 This app is for entertainment, it is meant to model a sports betting website where you place bets on sports teams. It takes sports games with two opposing teams in a specific league and allows you to increase, decrease, or remove your bet for each individual game.
 
 ## 2. How to run it
-Node v22.23.4; module3handoff/client needs npm install
+Node v22.23.4
 module3handoff/server run npm start, localhost:3001; module3handoff/client run npm run dev, localhost:5173
 Last tested from a fresh clone on 11/12/2026, by Zachary Roy.
 
@@ -13,6 +13,7 @@ Last tested from a fresh clone on 11/12/2026, by Zachary Roy.
 The site is functional, everything loads from a clean clone. The CSS is not implemented into the index page. The styles.css in the main/root folder contains all the CSS, which was functional before switching to the vite/express server, it just needs the CSS implementation.
 In regards to CRUD operations, everything is implemented besides the Create portion. You can read by clicking on the title of each card, update by increasing/decreasing bets, delete by reading then clicking delete. But we did not have enough time to implement the create functionality.
 The logo image currently does not appear, although the alt text does. Image found in images/ folder
+Clicking on the site-header links redirects you to the live-sports.html page, which we ditched when switching to the react/express servers. The links just need to be corrected.
 Currently we have these variables:
 | Field | Type | Rules |
 |---|---|---|
